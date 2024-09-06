@@ -4,6 +4,7 @@ Log into matiks.in as a guest play matiks at the speed you want. Get the score y
 
 Practice and Daily challenge is doable with this. Need to make some changes for online Duels.
 
+Look at autotest.ipynb for using this.
 
 Using requirements.txt to Install Packages
 To install the packages listed in requirements.txt in a new Conda environment, use the following command:
@@ -13,9 +14,4 @@ conda create --name newenv --file requirements.txt
 
 # Activate the new environment
 conda activate newenv
-```
-
-How to generate requriement.txt for conda?
-```
-conda list -e > requirements.txt
 ```
